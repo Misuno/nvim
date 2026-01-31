@@ -2,4 +2,12 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  -- REPL-клиент
+  'Olical/conjure',
+  -- Структурное редактирование (опционально)
+  'guns/vim-sexp',
+  'tpope/vim-sexp-mappings-for-regular-people',
+  'tpope/vim-repeat',
+  'tpope/vim-surround',
+}
